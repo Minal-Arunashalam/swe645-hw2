@@ -40,6 +40,7 @@ pipeline {
             steps {
                 withCredentials([file(credentialsId: 'kubeconfig-id', variable: 'KUBECONFIG_FILE')]) {
                     sh 'mkdir -p $WORKSPACE/.kube'
+                    sh 'rm -f $WORKSPACE/.kube/config'
                     sh 'cp $KUBECONFIG_FILE $WORKSPACE/.kube/config'
 
                 }
