@@ -39,11 +39,12 @@ pipeline {
         stage('Deploy to Kubernetes') {
             steps {
                 withCredentials([file(credentialsId: 'kubeconfig-id', variable: 'KUBECONFIG_FILE')]) {
-                    sh 'mkdir -p ~/.kube'
-                    sh 'cp $KUBECONFIG_FILE ~/.kube/config'
+                    sh 'mkdir -p $WORKSPACE/.kube'
+                    sh 'cp $KUBECONFIG_FILE $WORKSPACE/.kube/config'
+
                 }
                 sh 'kubectl get nodes'
-                sh "kubectl set image deployment/hw2deployment container-0=$FULL_IMAGE --namespace=default"
+                sh "kubectl --kubeconfig=$WORKSPACE/.kube/config set image deployment/hw2deployment container-0=$FULL_IMAGE --namespace=default"
             }
         }
     }
