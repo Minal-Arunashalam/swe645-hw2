@@ -1,6 +1,6 @@
 # SWE 645 Assignment 2
 
-This is a Java web app packaged as a WAR file and deployed to Kubernetes on AWS EC2 using a Jenkins CI/CD pipeline.
+This is a Java web app packaged as a WAR file and deployed to Kubernetes on AWS EC2 using a Jenkins CI/CD pipeline. demonstration
 
 ---
 
