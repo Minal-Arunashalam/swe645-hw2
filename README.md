@@ -6,12 +6,11 @@ This is a Java web app packaged as a WAR file and deployed to Kubernetes on AWS 
 
 ## Live URLs
 
-on S3: [http://hw1-swe645-minal.s3-website.us-east-2.amazonaws.com](url)
+on S3: [http://hw1-swe645-minal.s3-website.us-east-2.amazonaws.com](http://hw1-swe645-minal.s3-website.us-east-2.amazonaws.com)
 
-on EC2: [http://44.204.26.44/](url)
+on EC2: [http://44.204.26.44/](http://44.204.26.44/)
 
-- **Kubernetes deployment:**  
-  [http://ec2-54-144-174-126.compute-1.amazonaws.com:31247/StudentSurvey/](url)
+**Kubernetes deployment:** [http://ec2-54-144-174-126.compute-1.amazonaws.com:31247/StudentSurvey/](http://ec2-54-144-174-126.compute-1.amazonaws.com:31247/StudentSurvey/)
 
 ---
 
