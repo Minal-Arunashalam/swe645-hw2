@@ -1,3 +1,5 @@
+// Name: Minal Arunashalam
+// this is the Jenskins CI/CD pipeline configuration for hw2, allowing the application to redeploy on k8s when a commit is made to the main branch.
 pipeline {
     agent any
 
