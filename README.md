@@ -12,7 +12,7 @@ on EC2: [http://44.204.26.44/](http://44.204.26.44/)
 
 **Kubernetes deployment:** [http://ec2-54-144-174-126.compute-1.amazonaws.com:31247/StudentSurvey/](http://ec2-54-144-174-126.compute-1.amazonaws.com:31247/StudentSurvey/)
 
-_Demo Video:_ [https://vimeo.com/1099843951?share=copy]([url](https://vimeo.com/1099843951?share=copy))
+_Demo Video:_ [https://vimeo.com/1099843951?share=copy](https://vimeo.com/1099843951?share=copy)
 
 ---
 
